@@ -1,0 +1,21 @@
+﻿@page
+@model CreateModel
+@{
+}
+<div>
+    <h2>
+        Add Tea Item
+    </h2>
+</div>
+<div>
+    <form method="post">
+        <input asp-for="Tea.Name" type="text" placeholder="Tea Name" />
+        <span asp-validation-for="Tea.Name"></span>
+        <input asp-for="Tea.Type" type="text" placeholder="Tea Type" />
+        <span asp-validation-for="Tea.Type"></span>
+        <input asp-for="Tea.hasBeenUsed" type="text" placeholder="Has Been Used" />
+        <span asp-validation-for="Tea.hasBeenUsed"></span>
+        <input type="submit" value="Add Tea" />
+        <a asp-page="Index">Back to Tea List</a>
+    </form>
+</div>

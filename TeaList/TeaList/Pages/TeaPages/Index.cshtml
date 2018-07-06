@@ -1,0 +1,63 @@
+﻿@page
+@model IndexModel
+@{
+}
+
+<h2> Cycle One Tea List </h2>
+
+<div>
+    <a asp-page="Create"> Add new tea </a>
+</div>
+@if (Model.afterAddMessage !=null)
+{
+    @Model.afterAddMessage
+}
+
+<div>
+    @if(Model.myTeas.Count() > 0)
+    {
+        <form method="post">
+            <table>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(m => m.myTeas.FirstOrDefault().Name)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(m => m.myTeas.FirstOrDefault().Type)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(m => m.myTeas.FirstOrDefault().hasBeenUsed)
+                    </th>
+                    <th>
+
+                    </th>
+                </tr>
+                @foreach(var item in Model.myTeas)
+                {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(m => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(m => item.Type)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(m => item.hasBeenUsed)
+                    </td>
+                    <td>
+                        <a asp-page="Edit" asp-route-id="@item.ID">Edit</a>
+                        <button asp-page-handler="Delete" asp-route-id="@item.ID">&times;</button>
+                    </td>
+                </tr>
+
+                }
+            </table>
+        </form>
+
+    } else
+    {
+        <p>There are no Tea Items currently!</p>
+
+    }
+</div>
+

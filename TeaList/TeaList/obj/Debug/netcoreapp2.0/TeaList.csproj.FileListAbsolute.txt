@@ -1,0 +1,11 @@
+C:\Users\tasha\source\repos\TeaList\TeaList\bin\Debug\netcoreapp2.0\TeaList.deps.json
+C:\Users\tasha\source\repos\TeaList\TeaList\bin\Debug\netcoreapp2.0\TeaList.runtimeconfig.json
+C:\Users\tasha\source\repos\TeaList\TeaList\bin\Debug\netcoreapp2.0\TeaList.runtimeconfig.dev.json
+C:\Users\tasha\source\repos\TeaList\TeaList\bin\Debug\netcoreapp2.0\TeaList.dll
+C:\Users\tasha\source\repos\TeaList\TeaList\bin\Debug\netcoreapp2.0\TeaList.pdb
+C:\Users\tasha\source\repos\TeaList\TeaList\obj\Debug\netcoreapp2.0\TeaList.csprojAssemblyReference.cache
+C:\Users\tasha\source\repos\TeaList\TeaList\obj\Debug\netcoreapp2.0\TeaList.csproj.CoreCompileInputs.cache
+C:\Users\tasha\source\repos\TeaList\TeaList\obj\Debug\netcoreapp2.0\TeaList.AssemblyInfoInputs.cache
+C:\Users\tasha\source\repos\TeaList\TeaList\obj\Debug\netcoreapp2.0\TeaList.AssemblyInfo.cs
+C:\Users\tasha\source\repos\TeaList\TeaList\obj\Debug\netcoreapp2.0\TeaList.dll
+C:\Users\tasha\source\repos\TeaList\TeaList\obj\Debug\netcoreapp2.0\TeaList.pdb

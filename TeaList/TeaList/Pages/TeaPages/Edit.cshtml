@@ -1,0 +1,22 @@
+﻿@page
+@model EditModel
+@{
+}
+<div>
+    <h2>
+        Edit Tea Item
+    </h2>
+</div>
+<div>
+    <form method="post">
+        <input asp-for="Tea.ID" type="hidden"/>
+        <input asp-for="Tea.Name" type="text" placeholder="Tea Name" />
+        <span asp-validation-for="Tea.Name"></span>
+        <input asp-for="Tea.Type" type="text" placeholder="Tea Type" />
+        <span asp-validation-for="Tea.Type"></span>
+        <input asp-for="Tea.hasBeenUsed" type="text" placeholder="Has Been Used" />
+        <span asp-validation-for="Tea.hasBeenUsed"></span>
+        <input type="submit" value="Edit Tea" />
+        <a asp-page="Index">Back to Tea List</a>
+    </form>
+</div>
